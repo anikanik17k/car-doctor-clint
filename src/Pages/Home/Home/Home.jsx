@@ -1,9 +1,12 @@
+import About from "../About/About";
+import Header from "../Header/Header";
 
 
 const Home = () => {
     return (
         <div>
-            <h2>Here is Home</h2>
+            <Header></Header>
+            <About></About>
         </div>
     );
 };

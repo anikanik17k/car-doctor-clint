@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { FaSearch } from 'react-icons/fa';
 import { FaShoppingBag } from 'react-icons/fa';
+import logo from '../../assets/logo.svg';
 
 
 const Navbar = () => {
@@ -24,7 +25,7 @@ const Navbar = () => {
                         {navItem}
                     </ul>
                 </div>
-                <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+                <img src={logo} alt=""></img>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
