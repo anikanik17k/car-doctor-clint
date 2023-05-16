@@ -1,4 +1,4 @@
-import logo from '../../../src/assets/logo.png'
+import logo from '../../../src/assets/logo.svg'
 
 const Footer = () => {
     return (
@@ -32,3 +32,7 @@ const Footer = () => {
 };
 
 export default Footer;
+
+
+
+
